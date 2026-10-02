@@ -1,0 +1,22 @@
+{
+  "project": {
+    "name": "directus-local-node",
+    "color": "#6644FF"
+  },
+  "database": {
+    "client": "sqlite3",
+    "filename": "./data.db"
+  },
+  "server": {
+    "port": 8056,
+    "host": "0.0.0.0"
+  },
+  "storage": {
+    "locations": {
+      "local": {
+        "driver": "local",
+        "root": "./uploads"
+      }
+    }
+  }
+}
